@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03442A321D328DE9006BDCEC /* InternationalMorseCode.txt in Resources */ = {isa = PBXBuildFile; fileRef = 03442A2D1D328DE9006BDCEC /* InternationalMorseCode.txt */; };
+		03442A341D328DE9006BDCEC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03442A2E1D328DE9006BDCEC /* Model.swift */; };
+		03442A361D328DE9006BDCEC /* MorseCodingSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03442A2F1D328DE9006BDCEC /* MorseCodingSystem.swift */; };
+		03442A381D328DE9006BDCEC /* MorseEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03442A301D328DE9006BDCEC /* MorseEncoder.swift */; };
+		03442A3A1D328DE9006BDCEC /* MorseTransformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03442A311D328DE9006BDCEC /* MorseTransformation.swift */; };
+		0351E1F31D30600A006CAD45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0351E1F21D30600A006CAD45 /* AppDelegate.swift */; };
+		0351E1F51D30600A006CAD45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0351E1F41D30600A006CAD45 /* ViewController.swift */; };
+		0351E1F81D30600A006CAD45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0351E1F61D30600A006CAD45 /* Main.storyboard */; };
+		0351E1FA1D30600A006CAD45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0351E1F91D30600A006CAD45 /* Assets.xcassets */; };
+		0351E1FD1D30600A006CAD45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0351E1FB1D30600A006CAD45 /* LaunchScreen.storyboard */; };
+		039A8FCF1D34752200396434 /* FMSynthesizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039A8FCE1D34752200396434 /* FMSynthesizer.swift */; };
+		039A8FD11D34754900396434 /* MorseTransmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039A8FD01D34754900396434 /* MorseTransmitter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03442A2D1D328DE9006BDCEC /* InternationalMorseCode.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = InternationalMorseCode.txt; path = Domain/InternationalMorseCode.txt; sourceTree = "<group>"; };
+		03442A2E1D328DE9006BDCEC /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Model.swift; path = Domain/Model.swift; sourceTree = "<group>"; };
+		03442A2F1D328DE9006BDCEC /* MorseCodingSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MorseCodingSystem.swift; path = Domain/MorseCodingSystem.swift; sourceTree = "<group>"; };
+		03442A301D328DE9006BDCEC /* MorseEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MorseEncoder.swift; path = Domain/MorseEncoder.swift; sourceTree = "<group>"; };
+		03442A311D328DE9006BDCEC /* MorseTransformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MorseTransformation.swift; path = Domain/MorseTransformation.swift; sourceTree = "<group>"; };
+		0351E1EF1D30600A006CAD45 /* MorseCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorseCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0351E1F21D30600A006CAD45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0351E1F41D30600A006CAD45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0351E1F71D30600A006CAD45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0351E1F91D30600A006CAD45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0351E1FC1D30600A006CAD45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0351E1FE1D30600A006CAD45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		039A8FCE1D34752200396434 /* FMSynthesizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FMSynthesizer.swift; path = Transmission/FMSynthesizer.swift; sourceTree = "<group>"; };
+		039A8FD01D34754900396434 /* MorseTransmitter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MorseTransmitter.swift; path = Transmission/MorseTransmitter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0351E1EC1D30600A006CAD45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03009C531D32DEEE00DF18D9 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				0351E1F21D30600A006CAD45 /* AppDelegate.swift */,
+				0351E1F91D30600A006CAD45 /* Assets.xcassets */,
+				0351E1FE1D30600A006CAD45 /* Info.plist */,
+				0351E1FB1D30600A006CAD45 /* LaunchScreen.storyboard */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		0351E1E61D30600A006CAD45 = {
+			isa = PBXGroup;
+			children = (
+				0351E1F11D30600A006CAD45 /* MorseCode */,
+				0351E1F01D30600A006CAD45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0351E1F01D30600A006CAD45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0351E1EF1D30600A006CAD45 /* MorseCode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0351E1F11D30600A006CAD45 /* MorseCode */ = {
+			isa = PBXGroup;
+			children = (
+				03009C531D32DEEE00DF18D9 /* Config */,
+				0351E2121D30601C006CAD45 /* Domain */,
+				039A8FCD1D3474FA00396434 /* Transmission */,
+				0351E1F61D30600A006CAD45 /* Main.storyboard */,
+				0351E1F41D30600A006CAD45 /* ViewController.swift */,
+			);
+			path = MorseCode;
+			sourceTree = "<group>";
+		};
+		0351E2121D30601C006CAD45 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				03442A2D1D328DE9006BDCEC /* InternationalMorseCode.txt */,
+				03442A2E1D328DE9006BDCEC /* Model.swift */,
+				03442A2F1D328DE9006BDCEC /* MorseCodingSystem.swift */,
+				03442A301D328DE9006BDCEC /* MorseEncoder.swift */,
+				03442A311D328DE9006BDCEC /* MorseTransformation.swift */,
+			);
+			name = Domain;
+			sourceTree = "<group>";
+		};
+		039A8FCD1D3474FA00396434 /* Transmission */ = {
+			isa = PBXGroup;
+			children = (
+				039A8FCE1D34752200396434 /* FMSynthesizer.swift */,
+				039A8FD01D34754900396434 /* MorseTransmitter.swift */,
+			);
+			name = Transmission;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0351E1EE1D30600A006CAD45 /* MorseCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0351E20C1D30600A006CAD45 /* Build configuration list for PBXNativeTarget "MorseCode" */;
+			buildPhases = (
+				0351E1EB1D30600A006CAD45 /* Sources */,
+				0351E1EC1D30600A006CAD45 /* Frameworks */,
+				0351E1ED1D30600A006CAD45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MorseCode;
+			productName = MorseCode;
+			productReference = 0351E1EF1D30600A006CAD45 /* MorseCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0351E1E71D30600A006CAD45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = iJoshSmith;
+				TargetAttributes = {
+					0351E1EE1D30600A006CAD45 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0351E1EA1D30600A006CAD45 /* Build configuration list for PBXProject "MorseCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0351E1E61D30600A006CAD45;
+			productRefGroup = 0351E1F01D30600A006CAD45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0351E1EE1D30600A006CAD45 /* MorseCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0351E1ED1D30600A006CAD45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0351E1FD1D30600A006CAD45 /* LaunchScreen.storyboard in Resources */,
+				0351E1FA1D30600A006CAD45 /* Assets.xcassets in Resources */,
+				0351E1F81D30600A006CAD45 /* Main.storyboard in Resources */,
+				03442A321D328DE9006BDCEC /* InternationalMorseCode.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0351E1EB1D30600A006CAD45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03442A3A1D328DE9006BDCEC /* MorseTransformation.swift in Sources */,
+				03442A341D328DE9006BDCEC /* Model.swift in Sources */,
+				03442A361D328DE9006BDCEC /* MorseCodingSystem.swift in Sources */,
+				0351E1F51D30600A006CAD45 /* ViewController.swift in Sources */,
+				039A8FD11D34754900396434 /* MorseTransmitter.swift in Sources */,
+				03442A381D328DE9006BDCEC /* MorseEncoder.swift in Sources */,
+				0351E1F31D30600A006CAD45 /* AppDelegate.swift in Sources */,
+				039A8FCF1D34752200396434 /* FMSynthesizer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0351E1F61D30600A006CAD45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0351E1F71D30600A006CAD45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0351E1FB1D30600A006CAD45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0351E1FC1D30600A006CAD45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0351E20A1D30600A006CAD45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0351E20B1D30600A006CAD45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0351E20D1D30600A006CAD45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MorseCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iJoshSmith.MorseCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0351E20E1D30600A006CAD45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MorseCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iJoshSmith.MorseCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0351E1EA1D30600A006CAD45 /* Build configuration list for PBXProject "MorseCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0351E20A1D30600A006CAD45 /* Debug */,
+				0351E20B1D30600A006CAD45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0351E20C1D30600A006CAD45 /* Build configuration list for PBXNativeTarget "MorseCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0351E20D1D30600A006CAD45 /* Debug */,
+				0351E20E1D30600A006CAD45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0351E1E71D30600A006CAD45 /* Project object */;
+}
